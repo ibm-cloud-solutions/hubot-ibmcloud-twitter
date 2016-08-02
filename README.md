@@ -1,3 +1,8 @@
+[![Build Status](https://travis-ci.org/ibm-cloud-solutions/hubot-ibmcloud-twitter.svg?branch=master)](https://travis-ci.org/ibm-cloud-solutions/hubot-ibmcloud-twitter)
+[![Coverage Status](https://coveralls.io/repos/github/ibm-cloud-solutions/hubot-ibmcloud-twitter/badge.svg?branch=cleanup)](https://coveralls.io/github/ibm-cloud-solutions/hubot-ibmcloud-twitter?branch=cleanup)
+[![Dependency Status](https://dependencyci.com/github/ibm-cloud-solutions/hubot-ibmcloud-twitter/badge)](https://dependencyci.com/github/ibm-cloud-solutions/hubot-ibmcloud-twitter)
+[![npm](https://img.shields.io/npm/v/hubot-ibmcloud-twitter.svg?maxAge=2592000)](https://www.npmjs.com/package/hubot-ibmcloud-twitter)
+
 # hubot-ibmcloud-twitter
 
 A hubot script for automated tweeting based on events on the IBM Cloud.
@@ -10,7 +15,7 @@ A hubot script for automated tweeting based on events on the IBM Cloud.
 * [License](#license)
 * [Contribute](#contribute)
 
-## Usage <a id="usage"></a>
+## Usage
 
 Steps for adding this to your existing hubot:
 
@@ -34,7 +39,7 @@ HUBOT_TWEETER_ACCOUNTS=<Please see below>
 ```
 5. Start up your bot & off to the races!
 
-## Commands <a id="commands"></a>
+## Commands
 - edit tweets, list tweets, edit events, enable/disable
 - `hubot twitter monitoring help` - Show available commands in the twitter monitoring category.
 - `hubot twitter monitoring enable|disable` - Enable|Disable automatic tweeting.
@@ -42,15 +47,15 @@ HUBOT_TWEETER_ACCOUNTS=<Please see below>
 - `hubot twitter monitoring edit tweets` - Edit the tweet for a given event.
 - `hubot twitter monitoring edit events` - Edit which events we will tweet about.
 
-## Hubot Adapter Setup <a id="hubot-adapter-setup"></a>
+## Hubot Adapter Setup
 
 Hubot supports a variety of adapters to connect to popular chat clients.  For more feature rich experiences you can setup the following adapters:
-- [Slack setup](./docs/adapters/slack.md)
-- [Facebook Messenger setup](./docs/adapters/facebook.md)
+- [Slack setup](https://github.com/ibm-cloud-solutions/hubot-ibmcloud-twitter/blob/master/docs/adapters/slack.md)
+- [Facebook Messenger setup](https://github.com/ibm-cloud-solutions/hubot-ibmcloud-twitter/blob/master/docs/adapters/facebook.md)
 
-## Development <a id="development"></a>
+## Development
 
-Please refer to the [CONTRIBUTING.md](./CONTRIBUTING.md) before starting any work.  Steps for running this script for development purposes:
+Please refer to the [CONTRIBUTING.md](https://github.com/ibm-cloud-solutions/hubot-ibmcloud-twitter/blob/master/CONTRIBUTING.md) before starting any work.  Steps for running this script for development purposes:
 
 ### Configuration Setup
 
@@ -85,13 +90,13 @@ Hubot supports a variety of adapters to connect to popular chat clients.
 
 If you just want to use:
  - Terminal: run `npm run start`
- - [Slack: link to setup instructions](docs/adapters/slack.md)
- - [Facebook Messenger: link to setup instructions](docs/adapters/facebook.md)
+ - [Slack: link to setup instructions](https://github.com/ibm-cloud-solutions/hubot-ibmcloud-twitter/blob/master/docs/adapters/slack.md)
+ - [Facebook Messenger: link to setup instructions](https://github.com/ibm-cloud-solutions/hubot-ibmcloud-twitter/blob/master/docs/adapters/facebook.md)
 
-## License <a id="license"></a>
+## License
 
-See [LICENSE.txt](./LICENSE.txt) for license information.
+See [LICENSE.txt](https://github.com/ibm-cloud-solutions/hubot-ibmcloud-twitter/blob/master/LICENSE.txt) for license information.
 
 ## Contribute <a id="contribute"></a>
 
-Please check out our [Contribution Guidelines](./CONTRIBUTING.md) for detailed information on how you can lend a hand.
+Please check out our [Contribution Guidelines](https://github.com/ibm-cloud-solutions/hubot-ibmcloud-twitter/blob/master/CONTRIBUTING.md) for detailed information on how you can lend a hand.
