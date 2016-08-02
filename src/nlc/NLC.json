@@ -1,0 +1,61 @@
+{   "name": "IBMcloudTwitter",
+	"version": "0.0.1",
+	"classes": [
+		{
+			"class": "twitter.monitoring.help",
+			"emittarget": "twitter.monitoring.help",
+			"texts": [
+				"I want help with twitter monitoring.",
+				"Can you help me tweet about application events?",
+				"How can I notify follower on Twitter about application events.",
+				"Please help me tweet about my apps.",
+				"help twitter monitoring"
+			]
+		},
+		{
+			"class": "twitter.monitoring.enable",
+			"emittarget": "twitter.monitoring.enable",
+			"texts": [
+				"start tweeting about my applications",
+				"Begin monitoring apps and update Twitter",
+				"start tracking apps status on Twitter"
+			]
+		},
+		{
+			"class": "twitter.monitoring.disable",
+			"emittarget": "twitter.monitoring.disable",
+			"texts": [
+				"Stop tweeting about my applications",
+				"End monitoring apps and update Twitter",
+				"stop tracking apps status on Twitter"
+			]
+		},
+		{
+			"class": "twitter.tweet.edit",
+			"emittarget": "twitter.tweet.edit",
+			"texts": [
+				"edit what tweets based on the event",
+				"Change my event tweets",
+				"Alter my app monitoring twitter updates"
+			]
+		},
+		{
+			"class": "twitter.tweet.list",
+			"emittarget": "twitter.tweet.list",
+			"texts": [
+				"Show twitter monitoring posts",
+				"List application event tweets",
+				"display monitoring twitter posts"
+			]
+		},
+		{
+			"class": "twitter.event.list",
+			"emittarget": "twitter.event.list",
+			"texts": [
+				"Setup twitter events",
+				"Select app monitoring tweets",
+				"Choose twitter application events"
+			]
+		}
+	]
+}
