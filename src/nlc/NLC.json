@@ -3,17 +3,19 @@
 	"classes": [
 		{
 			"class": "twitter.monitoring.help",
+			"description": "Help with Tweeter monitoring",
 			"emittarget": "twitter.monitoring.help",
 			"texts": [
-				"I want help with twitter monitoring.",
+				"Help with twitter monitoring.",
 				"Can you help me tweet about application events?",
 				"How can I notify follower on Twitter about application events.",
-				"Please help me tweet about my apps.",
+				"Help me tweet about my apps.",
 				"help twitter monitoring"
 			]
 		},
 		{
 			"class": "twitter.monitoring.enable",
+			"description": "Start app monitoring Tweeter events",
 			"emittarget": "twitter.monitoring.enable",
 			"texts": [
 				"start tweeting about my applications",
@@ -23,6 +25,7 @@
 		},
 		{
 			"class": "twitter.monitoring.disable",
+			"description": "Stop app monitoring Tweeter events",
 			"emittarget": "twitter.monitoring.disable",
 			"texts": [
 				"Stop tweeting about my applications",
@@ -32,6 +35,7 @@
 		},
 		{
 			"class": "twitter.tweet.edit",
+			"description": "Change app monitoring Tweeter events",
 			"emittarget": "twitter.tweet.edit",
 			"texts": [
 				"edit what tweets based on the event",
