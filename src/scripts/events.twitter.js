@@ -173,7 +173,7 @@ module.exports = (robot) => {
 	function editTweets(res) {
 		robot.logger.debug(`${TAG}: twitter.tweet.edit res.message.text=${res.message.text}.`);
 		robot.logger.info(`${TAG}: Edit a tweet...`);
-		const regex = new RegExp('([1-' + EVENTS_ARRAY.length + ']+)');
+		const regex = utils.generateRegExpForNumberedList(EVENTS_ARRAY.length);
 		let prompt = '';
 		let selection;
 		let editPrompt;
@@ -371,7 +371,7 @@ module.exports = (robot) => {
 		return new Promise((resolve, reject) => {
 			let prompt = i18n.__('events.twitter.set.username.prompt');
 			let usernames = getUsernames();
-			let regex = new RegExp('([1-' + usernames.length + ']+)');
+			let regex = utils.generateRegExpForNumberedList(usernames.length);
 			let selection;
 
 			if (usernames && usernames.length === 1) {
