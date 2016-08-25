@@ -11,6 +11,7 @@ A hubot script for automated tweeting based on events on the IBM Cloud.
 * [Usage](#usage)
 * [Commands](#commands)
 * [Hubot Adapter Setup](#hubot-adapter-setup)
+* [Cognitive Setup](#cognitive-setup)
 * [Development](#development)
 * [License](#license)
 * [Contribute](#contribute)
@@ -52,6 +53,10 @@ HUBOT_TWEETER_ACCOUNTS=<Please see below>
 Hubot supports a variety of adapters to connect to popular chat clients.  For more feature rich experiences you can setup the following adapters:
 - [Slack setup](https://github.com/ibm-cloud-solutions/hubot-ibmcloud-twitter/blob/master/docs/adapters/slack.md)
 - [Facebook Messenger setup](https://github.com/ibm-cloud-solutions/hubot-ibmcloud-twitter/blob/master/docs/adapters/facebook.md)
+
+## Cognitive Setup
+
+This project supports natural language interactions using Watson and other Bluemix services.  For more information on enabling these features, refer to [Cognitive Setup](https://github.com/ibm-cloud-solutions/hubot-ibmcloud-nlc/blob/master/docs/cognitiveSetup.md).
 
 ## Development
 
