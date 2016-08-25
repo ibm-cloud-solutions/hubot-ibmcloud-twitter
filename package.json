@@ -3,7 +3,7 @@
   "version": "0.0.11",
   "description": "hubot-ibmcloud automated twitter monitoring",
   "main": "index.js",
-  "respository": {
+  "repository": {
     "url": "https://github.com/ibm-cloud-solutions/hubot-ibmcloud-twitter",
     "type": "git"
   },
