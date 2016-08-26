@@ -43,8 +43,7 @@
     "hubot-slack": "^4.0.2",
     "hubot-test-helper": "^1.4.4",
     "istanbul": "0.4.0",
-    "mocha": "^2.4.5",
-    "nock": "^8.0.0"
+    "mocha": "^2.4.5"
   },
   "peerDependencies": {
     "hubot": "^2.19.0",
