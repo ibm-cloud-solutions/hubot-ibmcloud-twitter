@@ -19,15 +19,15 @@
 */
 'use strict';
 
-var path = require('path');
-var TAG = path.basename(__filename);
+const path = require('path');
+const TAG = path.basename(__filename);
 
 // requires
 const Conversation = require('hubot-conversation');
 const utils = require('hubot-ibmcloud-utils').utils;
 const palette = require('hubot-ibmcloud-utils').palette;
 const activity = require('hubot-ibmcloud-activity-emitter');
-var i18n = new (require('i18n-2'))({
+const i18n = new (require('i18n-2'))({
 	locales: ['en'],
 	extension: '.json',
 	defaultLocale: 'en',

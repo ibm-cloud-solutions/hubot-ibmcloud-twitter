@@ -12,7 +12,7 @@ const helper = new Helper('../src/scripts');
 const expect = require('chai').expect;
 
 // configure i18n with location of strings
-var i18n = new (require('i18n-2'))({
+const i18n = new (require('i18n-2'))({
 	locales: ['en'],
 	extension: '.json',
 	defaultLocale: 'en',

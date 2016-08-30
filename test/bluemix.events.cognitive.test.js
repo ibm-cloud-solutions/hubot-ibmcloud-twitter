@@ -12,7 +12,7 @@ const helper = new Helper('../src/scripts');
 const expect = require('chai').expect;
 
 // configure i18n with location of strings
-var i18n = new (require('i18n-2'))({
+const i18n = new (require('i18n-2'))({
 	locales: ['en'],
 	extension: '.json',
 	defaultLocale: 'en',
@@ -57,7 +57,7 @@ describe('Interacting with Twitter Monitoring via Natural Language', function() 
 				done();
 			});
 
-			var res = { message: {text: 'I want help with twitter monitoring', id: 'anId', user: {id: 'anId'}}, user: {id: 'anId'}, response: room, reply: function(){} };
+			const res = { message: {text: 'I want help with twitter monitoring', id: 'anId', user: {id: 'anId'}}, user: {id: 'anId'}, response: room, reply: function(){} };
 			room.robot.emit('twitter.monitoring.help', res, {});
 		});
 	});
@@ -74,7 +74,7 @@ describe('Interacting with Twitter Monitoring via Natural Language', function() 
 				done();
 			});
 
-			var res = { message: {text: 'start tweeting about my applications', id: 'anId', user: {id: 'anId'}}, user: {id: 'anId'}, response: room, reply: function(){} };
+			const res = { message: {text: 'start tweeting about my applications', id: 'anId', user: {id: 'anId'}}, user: {id: 'anId'}, response: room, reply: function(){} };
 			room.robot.emit('twitter.monitoring.enable', res, {});
 		});
 	});
@@ -92,7 +92,7 @@ describe('Interacting with Twitter Monitoring via Natural Language', function() 
 				done();
 			});
 
-			var res = { message: {text: 'start tweeting about my applications', id: 'anId', user: {id: 'anId'}}, user: {id: 'anId'}, response: room, reply: function(){} };
+			const res = { message: {text: 'start tweeting about my applications', id: 'anId', user: {id: 'anId'}}, user: {id: 'anId'}, response: room, reply: function(){} };
 			room.robot.emit('twitter.monitoring.enable', res, {});
 		});
 	});
@@ -109,7 +109,7 @@ describe('Interacting with Twitter Monitoring via Natural Language', function() 
 				done();
 			});
 
-			var res = { message: {text: 'stop tweeting about my applications', id: 'anId', user: {id: 'anId'}}, user: {id: 'anId'}, response: room, reply: function(){} };
+			const res = { message: {text: 'stop tweeting about my applications', id: 'anId', user: {id: 'anId'}}, user: {id: 'anId'}, response: room, reply: function(){} };
 			room.robot.emit('twitter.monitoring.disable', res, {});
 		});
 	});
@@ -126,7 +126,7 @@ describe('Interacting with Twitter Monitoring via Natural Language', function() 
 				done();
 			});
 
-			var res = { message: {text: 'stop tweeting about my applications', id: 'anId', user: {id: 'anId'}}, user: {id: 'anId'}, response: room, reply: function(){} };
+			const res = { message: {text: 'stop tweeting about my applications', id: 'anId', user: {id: 'anId'}}, user: {id: 'anId'}, response: room, reply: function(){} };
 			room.robot.emit('twitter.monitoring.disable', res, {});
 		});
 	});
@@ -142,7 +142,7 @@ describe('Interacting with Twitter Monitoring via Natural Language', function() 
 				done();
 			});
 
-			var res = { message: {text: 'Change my event tweets', id: 'anId', user: {id: 'anId'}}, user: {id: 'anId'}, response: room, reply: function(){} };
+			const res = { message: {text: 'Change my event tweets', id: 'anId', user: {id: 'anId'}}, user: {id: 'anId'}, response: room, reply: function(){} };
 			room.robot.emit('twitter.tweet.edit', res, {});
 		});
 	});
@@ -156,7 +156,7 @@ describe('Interacting with Twitter Monitoring via Natural Language', function() 
 				expect(room.messages[room.messages.length - 2][1]).to.contain(i18n.__('events.twitter.edit.events.prompt', '\'enable 1,2,3\' or \'disable 1 2\''));
 				done();
 			}, 200);
-			var res = { message: {text: 'Setup twitter events', id: 'anId', user: {id: 'anId'}}, user: {id: 'anId'}, response: room, reply: function(){} };
+			const res = { message: {text: 'Setup twitter events', id: 'anId', user: {id: 'anId'}}, user: {id: 'anId'}, response: room, reply: function(){} };
 			room.robot.emit('twitter.event.list', res, {});
 		});
 	});
@@ -173,7 +173,7 @@ describe('Interacting with Twitter Monitoring via Natural Language', function() 
 				}
 			});
 
-			var res = { message: {text: 'Show twitter monitoring posts', user: {id: 'anId'}}, user: {id: 'anId'}, response: room, reply: function(){}};
+			const res = { message: {text: 'Show twitter monitoring posts', user: {id: 'anId'}}, user: {id: 'anId'}, response: room, reply: function(){}};
 			room.robot.emit('twitter.tweet.list', res, {});
 		});
 	});
